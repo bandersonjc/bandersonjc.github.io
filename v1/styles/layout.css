@@ -2,44 +2,6 @@
 
 /* CSS Document */
 
-/* --------------- SURFACES --------------- */
-
-.surface {
-    display: flex;
-    flex-direction: column;
-    grid-gap: 24px;
-    padding: 16px;
-    max-width: 960px;
-    
-    background-color: var(--surface-light);
-    border: 1px solid var(--neutral-stroke-subdued);
-    border-radius: 4px;  
-}
-
-.dark {
-    background-color: var(--surface-dark);
-}
-
-.background {
-    background-color: var(--background-base);
-}
-
-.info {
-    background-color: var(--info-surface);
-}
-
-.success {
-    background-color: var(--success-surface);
-}
-
-.warning {
-    background-color: var(--warning-surface);
-}
-
-.error {
-    background-color: var(--error-surface);
-}
-
 /* --------------- LAYOUT --------------- */
 
 body {

@@ -16,7 +16,15 @@
     border-bottom: 1px solid var(--neutral-stroke-subdued);
 }
 
-.bar div.left {    
+.bar > .row {    
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 16px;
+}
+
+.bar > .row > .left {    
     display: flex;
     flex-grow: 1;
     flex-wrap: wrap;
@@ -24,9 +32,18 @@
     grid-gap: 16px;   
 }
 
-.bar > div > img {
-    height: 1.375rem;
+.bar img {
+    height: 1rem;
 }
+
+/* --------------- BULK ACTION TOOLBAR --------------- */
+
+.bulk-action {   
+    background-color: var(--brand-mist-blue);
+}
+
+
+/* --------------- BOTTOM BAR --------------- */
 
 .bottom-bar {
     display: flex;
@@ -40,11 +57,11 @@
     border-top: 1px solid var(--neutral-stroke-subdued);
 }
 
-.bottom-bar > div.row {
+.bottom-bar > .row {
     align-items: flex-end;
 }
 
-.bottom-bar div.left {    
+.bottom-bar > .row > .left {    
     display: flex;
     flex-grow: 1;
     align-items: center;
@@ -53,4 +70,42 @@
 
 .bottom-bar button.field {
     width: 160px;
+}
+
+/* --------------- SURFACES --------------- */
+
+.surface {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    padding: 16px;
+    max-width: 960px;
+    
+    background-color: var(--surface-light);
+    border: 1px solid var(--neutral-stroke-subdued);
+    border-radius: 4px;  
+}
+
+.dark {
+    background-color: var(--surface-dark);
+}
+
+.background {
+    background-color: var(--background-base);
+}
+
+.info {
+    background-color: var(--info-surface);
+}
+
+.success {
+    background-color: var(--success-surface);
+}
+
+.warning {
+    background-color: var(--warning-surface);
+}
+
+.error {
+    background-color: var(--error-surface);
 }
