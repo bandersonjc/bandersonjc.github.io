@@ -72,6 +72,27 @@
     width: 160px;
 }
 
+/* --------------- ITEM LIST --------------- */
+
+.list-header {    
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    padding: 12px 22px;
+    min-height: 1rem;
+    border-bottom: 1px solid var(--neutral-stroke-subdued);
+    background-color: var(--surface-light);
+}
+
+.list-item {    
+    display: flex;
+    align-items: center;
+    grid-gap: 16px;
+    padding: 12px 6px;
+    min-height: 2rem;
+    border-bottom: 1px solid var(--neutral-stroke-subdued);
+}
+
 /* --------------- SURFACES --------------- */
 
 .surface {
@@ -108,4 +129,8 @@
 
 .error {
     background-color: var(--error-surface);
+}
+
+.brand {
+    background-color: var(--brand-mist-blue);
 }

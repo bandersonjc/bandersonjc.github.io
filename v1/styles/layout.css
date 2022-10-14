@@ -51,13 +51,14 @@ main {
     flex-direction: column;
     flex-grow: 1;
     overflow: auto;
+    padding: 0px 16px;
     
     background-color: var(--surface-light);
 }
 
 .row {    
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0;
     flex-wrap: wrap;
     align-items: center;
     grid-gap: 16px;
