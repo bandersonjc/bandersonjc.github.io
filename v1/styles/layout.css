@@ -42,7 +42,7 @@ main {
     flex-grow: 1;
     grid-gap: 16px;
     padding: 16px;
-    padding: 80px;
+    padding-bottom: 80px;
     overflow: auto;
 }
 
