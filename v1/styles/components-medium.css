@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* --------------- BARS --------------- */
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 21px;
+    flex-wrap: wrap;
+    grid-gap: 16px;
+    padding: 12px 16px;
+    
+    background-color: var(--surface-light);
+    border-bottom: 1px solid var(--neutral-stroke-subdued);
+}
+
+.bar div.left {    
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 16px;   
+}
+
+.bar > div > img {
+    height: 1.375rem;
+}
+
+.bottom-bar {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 21px;
+    flex-wrap: wrap;
+    grid-gap: 16px;
+    padding: 12px 16px;
+    
+    background-color: var(--surface-light);
+    border-top: 1px solid var(--neutral-stroke-subdued);
+}
+
+.bottom-bar > div.row {
+    align-items: flex-end;
+}
+
+.bottom-bar div.left {    
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    grid-gap: 16px;   
+}
+
+.bottom-bar button.field {
+    width: 160px;
+}

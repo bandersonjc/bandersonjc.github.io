@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* --------------- COLORS --------------- */
+
+:root {
+    --background-base: #F7F7FB;
+    --background-brand: #002B49;
+    --surface-light: #FFFFFF;
+    --surface-dark: #202D38;
+    --neutral-text-base: #202D38;
+    --neutral-text-descriptive: #626B73;
+    --neutral-text-disabled: #92999E;
+    --neutral-stroke-base: #C9CCCF;
+    --neutral-stroke-subdued: #E3E8E9;
+    --primary-fill-default: #41C8C3;
+    --primary-fill-hover: #4EA4A0;
+    --secondary-fill-default: #FFFFFF;
+    --secondary-fill-hover: #E4E8E9;
+    --secondary-fill-disabled: #F1F3F4;
+    --info-base: #4373C7;
+    --info-focus: #A4BEFA;
+    --info-surface: #F5F9FF;
+    --success-surface: #E6F8F2;
+    --warning-surface: #FFF5E0;
+    --error-base: #E54852;
+    --error-surface: #FDEDEE;
+}

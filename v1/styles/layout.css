@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* --------------- SURFACES --------------- */
+
+.surface {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 24px;
+    padding: 16px;
+    max-width: 960px;
+    
+    background-color: var(--surface-light);
+    border: 1px solid var(--neutral-stroke-subdued);
+    border-radius: 4px;  
+}
+
+.dark {
+    background-color: var(--surface-dark);
+}
+
+.background {
+    background-color: var(--background-base);
+}
+
+.info {
+    background-color: var(--info-surface);
+}
+
+.success {
+    background-color: var(--success-surface);
+}
+
+.warning {
+    background-color: var(--warning-surface);
+}
+
+.error {
+    background-color: var(--error-surface);
+}
+
+/* --------------- LAYOUT --------------- */
+
+body {
+    display: flex;
+    overflow: hidden;
+    
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    
+    background-color: var(--background-base);
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 240px;
+    
+    background-color: var(--background-brand);
+}
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        flex-basis: 48px; 
+        
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.detail {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    grid-gap: 16px;
+    padding: 16px;
+    overflow: auto;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+    
+    background-color: var(--surface-light);
+}
+
+.row {    
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 16px;
+}
+
+.divider-h {
+    background-color: var(--neutral-stroke-subdued);
+    height: 1px;
+}
