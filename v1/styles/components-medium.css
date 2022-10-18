@@ -33,10 +33,6 @@
     grid-gap: 16px;   
 }
 
-.bar img {
-    height: 1rem;
-}
-
 /* --------------- BULK ACTION TOOLBAR --------------- */
 
 .bulk-action {   

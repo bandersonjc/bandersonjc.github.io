@@ -34,10 +34,6 @@ button:focus {
     outline: 3px solid var(--info-focus);
 }
 
-button > img {
-    height: 1rem;
-}
-
 button.secondary {    
     color: var(--neutral-text-base);
     
@@ -155,10 +151,6 @@ a:focus {
     outline: 3px solid var(--info-focus);
 }
 
-a > img {
-    height: 1rem;
-}
-
 button:hover > a {
     border: none;
 }
@@ -175,10 +167,6 @@ label {
     display: flex;
     align-items: center;
     grid-gap: 4px;
-}
-
-label > img {
-    height: 1rem;
 }
 
 input, select, textarea, .field, .search {
