@@ -292,6 +292,17 @@ button.chip {
     border-radius: 1rem;
 }
 
+button.chip-clearable {    
+    color: var(--neutral-text-base);
+    
+    padding: 7px 15px;
+    
+    background-color: var(--secondary-fill-default);
+    border: 1px solid var(--surface-dark);
+    border-radius: 1rem;
+}
+
+
 button.chip:hover {    
     color: var(--neutral-text-base);
     background-color: var(--secondary-fill-hover);
