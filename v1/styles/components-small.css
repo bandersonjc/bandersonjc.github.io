@@ -293,6 +293,7 @@ button.chip {
 }
 
 button.chip-clearable {    
+    font-weight: 400;
     color: var(--neutral-text-base);
     
     padding: 7px 15px;
@@ -303,7 +304,7 @@ button.chip-clearable {
 }
 
 
-button.chip:hover {    
+button.chip:hover, button.chip-clearable:hover {    
     color: var(--neutral-text-base);
     background-color: var(--secondary-fill-hover);
 }
